@@ -5,6 +5,7 @@ module.exports = {
     [
       'postcss-preset-env',
       {
+        tailwindcss: {},
         autoprefixer: {
           flexbox: 'no-2009'
         },

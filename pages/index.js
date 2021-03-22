@@ -19,6 +19,7 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hey my name is Jon Dhia and I love Yuni Shara so much! <br/> &lt;3 uWu </p>
